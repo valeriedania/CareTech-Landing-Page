@@ -1,1 +1,47 @@
+html,
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: white;
+}
+
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  
+}
+
+.main img {
+  display:flex;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+nav {
+  background-color: white;
+  color: black;
+  padding: 40px 40px;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav ul li.logo {
+  font-size: 50px;
+  
+}
 
