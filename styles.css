@@ -1,3 +1,8 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+} 
+
 html, body {
   font-family: 'Secular One', sans-serif;
 }
@@ -31,11 +36,12 @@ p.logo {
   font-size: 30px;
   color: black;
   font-weight: bold;
+  margin-left: 20px;
  }
 
 .supporting img { 
-  padding: 10px 10px;
- 
+  padding: 50px 20px 20px 600px;
+  margin: 50px;
 }
 
 img.logo {
@@ -79,4 +85,10 @@ a:hover:before {
   cursor: pointer;
   border-radius: 50px;
   font-family: 'Secular One', sans-serif;
+}
+
+
+.description {
+  margin: 10px 70px 10px 50px;
+  
 }
