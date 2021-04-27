@@ -111,3 +111,13 @@ a:hover:before {
 }
 
 
+
+.timetable {
+  display: flex;
+  text-align: center;
+  align-items: baseline;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+
