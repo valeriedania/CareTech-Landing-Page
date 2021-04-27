@@ -39,8 +39,10 @@ p.logo {
  }
 
 .supporting img { 
-  padding: 50px 20px 20px 600px;
-  margin: 50px;
+  max-width:100%;
+  height: auto;
+  padding: 30px 20px 0px 600px;
+  
 }
 
 img.logo {
@@ -85,6 +87,7 @@ a:hover:before {
   border-radius: 50px;
   font-family: 'Secular One', sans-serif;
 }
+
 #white-blue-text-button {
   background-color: #white; 
   border: none;
@@ -100,11 +103,11 @@ a:hover:before {
   font-family: 'Secular One', sans-serif;
 }
 
-.supporting {
-  display: inline;
-}
 
 .description {
   margin: 10px 70px 10px 50px;
-  
+  position: absolute;
+  top: 200px; left: 40px;
 }
+
+
