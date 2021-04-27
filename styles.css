@@ -127,3 +127,9 @@ a:hover:before {
 }
 
 
+.Billing {
+  padding: 60px;
+  display: inline;
+  text-align: center;
+  justify-content: space-between;
+}
