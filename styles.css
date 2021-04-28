@@ -160,16 +160,25 @@ a:hover:before {
   
 }
 
+
+.member img {
+  border-radius: 15px;
+  border: 5px solid white;
+}
+
 #Jones p {
   text-align: center;
-  margin-right: 55px
+  margin-right: 55px;
 }
+
 #Gutierrez img { 
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+
+  
 }
 
 #Gutierrez p {
-  text-align: left;
+  text-align: center;
 }
 
