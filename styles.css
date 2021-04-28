@@ -5,6 +5,7 @@
 
 html, body {
   font-family: 'Secular One', sans-serif;
+  list-style-type: none;
 }
 
 
@@ -126,10 +127,40 @@ a:hover:before {
   
 }
 
-
-.Billing {
+.Billing { 
+  list-style-type: none;
   padding: 60px;
   display: inline;
   text-align: center;
   justify-content: space-between;
 }
+
+.prices {
+  margin: auto;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.prices ul {
+  list-style-type: none;
+}
+
+.Experts {
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(148,187,233,1) 100%);
+  padding: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#Jones p {
+  text-align: center;
+}
+#Gutierrez img { 
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+
