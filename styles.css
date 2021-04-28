@@ -146,21 +146,30 @@ a:hover:before {
 }
 
 .Experts {
+  padding: 70px;
   background: rgb(255,255,255);
   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(148,187,233,1) 100%);
+  text-align: center;
+}
+
+.teams {
   padding: 70px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  
 }
 
 #Jones p {
   text-align: center;
+  margin-right: 55px
 }
 #Gutierrez img { 
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 
-
+#Gutierrez p {
+  text-align: left;
+}
 
