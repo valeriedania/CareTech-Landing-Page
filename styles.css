@@ -56,7 +56,7 @@ a {
   position: relative;
 }
 
-a::before {
+nav a::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -112,8 +112,6 @@ a:hover:before {
 }
 
 
-
-
 .timetable {
   padding: 60px;
   display: flex;
@@ -160,7 +158,6 @@ a:hover:before {
   
 }
 
-
 .member img {
   border-radius: 15px;
   border: 5px solid white;
@@ -185,4 +182,51 @@ a:hover:before {
 .call {
   padding: 70px;
   text-align: center;
+}
+
+.footer-clean {
+  padding:50px 0;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(148,187,233,1) 100%);
+  color:#4b4c4d;
+}
+.footer-info {
+  margin-left:155px;
+  display: inline-block;
+  text-align:center;
+ 
+
+}
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .copyright {
+  margin-top:50px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+  text-align: right;
+  margin-right: 20px;
 }
