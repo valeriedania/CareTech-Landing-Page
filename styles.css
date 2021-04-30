@@ -126,22 +126,28 @@ a:hover:before {
 }
 
 .Billing { 
-  list-style-type: none;
   padding: 60px;
-  display: inline;
   text-align: center;
-  justify-content: space-between;
 }
 
 .prices {
+  padding: 60px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: stetch;
+}
+
+.payment {
   margin: auto;
   width: 300px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
 
-.prices ul {
+}
+.payment ul {
   list-style-type: none;
 }
+
 
 .Experts {
   padding: 70px;
